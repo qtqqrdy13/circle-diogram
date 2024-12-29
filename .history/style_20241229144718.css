@@ -1,0 +1,14 @@
+.update{
+color: blue;
+border-radius: 30%;
+cursor:pointer;
+width: 100px;
+
+}
+h1{
+    font-weight: bold;
+}
+input{
+width: 100px;
+
+}

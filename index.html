@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Dynamic Pie Chart</h1>
+    <div class="input-container">
+        <input type="number" id="green" placeholder="Green %" max="100">
+        <input type="number" id="orange" placeholder="Orange %" max="100">
+        <button onclick="updateChart()">Update Chart</button>
+    </div>
+    <div class="chart"></div>
+    <div class="legend">
+        <div><span class="green"></span> Green</div>
+        <div><span class="orange"></span> Orange</div>
+        <div><span class="red"></span> Red</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

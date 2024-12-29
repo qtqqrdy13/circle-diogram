@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-container input {
+    margin: 5px;
+    padding: 10px;
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.input-container button:hover {
+    background-color: #0056b3;
+}
+
+.chart {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: conic-gradient(green 0%,
+            green var(--green),
+            orange var(--green),
+            orange calc(var(--green) + var(--orange)),
+            red calc(var(--green) + var(--orange)),
+            red 100%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.legend {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.legend div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.legend span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.legend .green {
+    background-color: green;
+}
+
+.legend .orange {
+    background-color: orange;
+}
+
+.legend .red {
+    background-color: red;
+}
